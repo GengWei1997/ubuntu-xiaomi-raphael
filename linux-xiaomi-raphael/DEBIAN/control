@@ -1,0 +1,6 @@
+Package: linux-xiaomi-raphael
+Version: 6.17.0-sm8150
+Architecture: arm64
+Maintainer: GengWei1997 <anonymous@localhost>
+Section: kernel
+Description: Kernel and Modules for Xiaomi K20 Pro

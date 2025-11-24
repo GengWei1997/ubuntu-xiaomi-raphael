@@ -1,6 +1,0 @@
-Package: linux-xiaomi-nabu
-Version: 6.8.0-sm8150
-Architecture: arm64
-Maintainer: map220v <map220v300@gmail.com>
-Section: kernel
-Description: Kernel and Modules for Xiaomi Pad 5
