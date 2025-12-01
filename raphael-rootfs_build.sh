@@ -61,7 +61,7 @@ chroot rootdir apt install -y rmtfs protection-domain-mapper tqftpserv
 #Remove check for "*-laptop"
 sed -i '/ConditionKernelVersion/d' rootdir/lib/systemd/system/pd-mapper.service
 
-cp /home/runner/work/ubuntu-xiaomi-raphael/ubuntu-xiaomi-raphael/xiaomi-raphael-debs_$2/*-xiaomi-raphael.deb rootdir/tmp/
+cp xiaomi-raphael-debs_$2/*-xiaomi-raphael.deb rootdir/tmp/
 chroot rootdir dpkg -i /tmp/linux-xiaomi-raphael.deb
 chroot rootdir dpkg -i /tmp/firmware-xiaomi-raphael.deb
 chroot rootdir dpkg -i /tmp/alsa-xiaomi-raphael.deb
