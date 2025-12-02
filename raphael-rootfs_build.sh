@@ -66,7 +66,7 @@ chroot rootdir dpkg -i /tmp/linux-xiaomi-raphael.deb
 chroot rootdir dpkg -i /tmp/firmware-xiaomi-raphael.deb
 chroot rootdir dpkg -i /tmp/alsa-xiaomi-raphael.deb
 rm rootdir/tmp/*-xiaomi-raphael.deb
-
+chroot rootdir update-initramfs -c -k all
 
 #EFI
 chroot rootdir apt install -y grub-efi-arm64
